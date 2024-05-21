@@ -18,12 +18,14 @@ function Card() {
     getAdvice();
   }, []);
   return (
-    <div className="card">
+    <>
+        <div className="card">
       <div className="advice-no">ADVICE #{advice ? advice.id : "117"}</div>
       <div className="card-body">
-        {advice
+      <span>&#8220;</span>{advice
           ? advice.advice
           : "It is easy to sit up and take notice, what's difficult is getting up and taking action."}
+          <span>&#8221;</span>
       </div>
       <img
         src={dividerDesktop}
@@ -45,6 +47,8 @@ function Card() {
         <img src={dice} alt="dice" />
       </div>
     </div>
+    </>
+
   );
 }
 
