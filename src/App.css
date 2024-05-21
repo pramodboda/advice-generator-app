@@ -14,7 +14,7 @@ visibility: hidden;
   align-items: center;
   align-content: center;
   margin: 0 auto;
-  margin-top: -118px;
+  /* margin-top: -118px; */
   border-radius: 15px;
   
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
